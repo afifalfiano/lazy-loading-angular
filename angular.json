@@ -51,6 +51,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -104,6 +105,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "lazyLoadingAngular"
+    }
+  },
+  "defaultProject": "lazyLoadingAngular",
+  "cli": {
+    "analytics": false
+  }
 }
